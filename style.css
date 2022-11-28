@@ -21,15 +21,28 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
- 
+
 }
 .intro img{
     width: 100%;
+}
+#content{
+    margin-top: 25vh;
+}
+#content h3{
+    font-size: 35px;
+}
+#content h3 span{
+    font-size: 35px;
 }
 .banner{
     background-image: url(./image/top-banner.png);
     background-repeat: no-repeat;
 }
+.banner h2 span{
+    color: orangered;
+}
+
 .banner h2{
     color: grey;
 }
@@ -38,6 +51,7 @@ section{
     height: 500px ;
     margin-bottom: 200px;
 }
+
 .hire{
     text-decoration: none;
     border: 1px solid orangered;
@@ -48,11 +62,14 @@ section{
     font-weight: 700;
 
 }
+
+/* ----------section 2------------ */
 .about{
     background-image: url(./image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+/* ----------section 3------------ */
 .experience{
     background-image: url(./image/exp-bg.png);
     background-repeat: no-repeat;
@@ -82,6 +99,10 @@ color: orangered;
     border-right: 8px solid;
     border-image: linear-gradient(180deg, #32A8EF, #11E4CE);
     border-image-slice:1;
+}
+#title{
+    text-align: center;
+    font-size: 35px;
 }
 footer{
     text-align: center;
